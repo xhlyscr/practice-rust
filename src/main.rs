@@ -1,3 +1,5 @@
+mod palindrome;
+
 fn main() {
-    println!("Hello, world!");
+    palindrome::palindrome(String::from("level"));
 }
